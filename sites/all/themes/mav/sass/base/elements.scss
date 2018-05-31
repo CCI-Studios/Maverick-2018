@@ -1,0 +1,16 @@
+h2
+{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+p
+{
+  margin-bottom: 1.5em;
+
+  &:last-child
+  {
+    margin-bottom: 0;
+  }
+}

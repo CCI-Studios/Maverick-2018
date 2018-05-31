@@ -1,0 +1,36 @@
+.commerce-price-formatted-components
+{
+  @extend .views-table;
+  width: 33%;
+  min-width: 270px;
+}
+.checkout-buttons
+{
+  .button-operator
+  {
+    margin: 0 10px 0 20px;
+  }
+}
+
+.checkout-review
+{
+  @extend .views-table;
+  margin: 1em 0 2em 0;
+}
+
+.commerce_payment
+{
+  .form-item-commerce-payment-payment-method
+  {
+    position: absolute;
+    left: -9999999px;
+  }
+  .StripeElement
+  {
+    border: 2px solid black;
+    border-radius: 3px;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+  }
+}

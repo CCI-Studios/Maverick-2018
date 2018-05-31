@@ -1,0 +1,55 @@
+input[type=text],
+input[type=email],
+input[type=password]
+{
+  height: 40px;
+  line-height: 36px;
+  border: 2px solid black;
+  padding: 0 12px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: white;
+}
+textarea
+{
+  height: 320px;
+  line-height: 1.1;
+  border: 2px solid black;
+  padding: 10px 12px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: white;
+}
+select
+{
+  height: 40px;
+  line-height: 36px;
+  border: 2px solid black;
+  padding: 0 12px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: white;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+fieldset
+{
+  border: 0;
+  padding: 0;
+  margin: 0 0 2em 0;
+}
+legend
+{
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  display: block;
+  line-height: 1;
+}

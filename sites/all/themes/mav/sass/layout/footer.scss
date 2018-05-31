@@ -1,0 +1,254 @@
+.footer
+{
+  clear: both;
+  background: black;
+  color: white;
+  padding: 90px 25px 50px 25px;
+  font-weight: 600;
+
+  &:after
+  {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  & > div
+  {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  a
+  {
+    color: white;
+    text-decoration: none;
+
+    &:hover
+    {
+      text-decoration: underline;
+    }
+  }
+  .block-title
+  {
+    text-transform: uppercase;
+    color: #b1b1b1;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  .block
+  {
+    float: left;
+    margin-right: 11%;
+    margin-bottom: 40px;
+
+    &
+    {
+      @media (max-width: 370px)
+      {
+        float: none;
+        margin-right: 0;
+      }
+    }
+  }
+  .block--footer-contact
+  {
+    width: 160px;
+  }
+  .block--footer-menu
+  {
+    .content
+    {
+      ul
+      {
+        list-style: none;
+      }
+      li
+      {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      a
+      {
+        display: block;
+        line-height: 1;
+        padding: 5px 0;
+        color: white;
+        text-decoration: none;
+
+        &:hover
+        {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .block--social-menu
+  {
+    margin-right: 0;
+
+    .content
+    {
+      ul
+      {
+        list-style: none;
+      }
+      li
+      {
+        list-style: none;
+        padding: 0;
+        margin: 0 12px 0 0;
+        display: inline-block;
+        vertical-align: top;
+      }
+      a
+      {
+        font-size: 0;
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+      }
+      .ig
+      {
+        background-image: url(../images/social-ig-white.svg);
+      }
+      .fb
+      {
+        background-image: url(../images/social-fb-white.svg);
+      }
+      .tw
+      {
+        background-image: url(../images/social-tw-white.svg);
+      }
+    }
+  }
+  .block--stay-updated
+  {
+    float: right;
+    margin-right: 0;
+    max-width: 380px;
+
+    &
+    {
+      @media (max-width: 1075px)
+      {
+        float: left;
+        clear: left;
+      }
+    }
+
+    input
+    {
+      display: inline-block;
+      box-sizing: border-box;
+      height: 52px;
+      line-height: 48px;
+      padding: 0 25px;
+      border: 2px solid white;
+      color: white;
+      width: 70%;
+      vertical-align: top;
+      background: black;
+      border-radius: 0;
+    }
+    button
+    {
+      background: white;
+      color: black;
+      text-transform: uppercase;
+      text-align: center;
+      height: 52px;
+      line-height: 48px;
+      width: 30%;
+      border: 2px solid white;
+      display: inline-block;
+      -webkit-appearance: none;
+      appearance: none;
+      vertical-align: top;
+      font-weight: 600;
+    }
+  }
+}
+
+.footer-bottom
+{
+  background: white;
+  clear: both;
+  padding: 40px 25px 60px 25px;
+
+  &:after
+  {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  & > div
+  {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+  .footer-logo a
+  {
+    float: left;
+    font-size: 0;
+    display: block;
+    width: 40px;
+    height: 22px;
+    background: url(../images/logo-maverick-icon-black.svg) no-repeat top left;
+    background-size: contain;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        float: none;
+        margin: 0 auto 20px auto;
+      }
+    }
+  }
+  .footer-bottom-right
+  {
+    float: right;
+    color: #b1b1b1;
+    font-size: 0.8em;
+    line-height: 1;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        float: none;
+        text-align: center;
+      }
+    }
+
+    a
+    {
+      color: #b1b1b1;
+      text-decoration: none;
+
+      &:hover
+      {
+        text-decoration: underline;
+      }
+    }
+  }
+  .copyright
+  {
+    display: inline-block;
+    padding-right: 12px;
+    border-right: 1px solid #b1b1b1;
+    margin-right: 12px;
+    vertical-align: top;
+  }
+  .site-by-cci
+  {
+    display: inline-block;
+    vertical-align: top;
+  }
+}

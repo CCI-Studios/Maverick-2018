@@ -1,0 +1,51 @@
+.bean-call-to-action-with-background
+{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: 65px 60px;
+  min-height: 200px;
+
+  &
+  {
+    @media (max-width: 480px)
+    {
+      padding: 40px 25px;
+    }
+  }
+
+  .field-name-field-title-line-1
+  {
+    font-size: 1.1em;
+    line-height: 1;
+  }
+  .field-name-field-title-line-2
+  {
+    font-size: 3em;
+    line-height: 1;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        font-size: 2.5em;
+      }
+    }
+  }
+  .call-to-action
+  {
+    position: absolute;
+    bottom: 65px;
+    left: 60px;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        bottom: 25px;
+        left: 25px;
+      }
+    }
+  }
+}

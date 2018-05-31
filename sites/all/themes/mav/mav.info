@@ -1,0 +1,16 @@
+name = Maverick
+description = Maverick Custom
+core = 7.x
+
+scripts[] = js/menu.js
+scripts[] = js/product.js
+scripts[] = js/instagram.js
+
+stylesheets[all][] = css/importer.css
+
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+regions[footer_bottom] = Footer Bottom

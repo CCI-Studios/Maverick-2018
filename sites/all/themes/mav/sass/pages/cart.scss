@@ -1,0 +1,46 @@
+.commerce-line-item-views-form input.delete-line-item
+{
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  color: black;
+  min-width: 0;
+  padding: 0;
+}
+.views-form-commerce-cart-form-default
+{
+  .form-actions :first-child
+  {
+    background: none;
+    border: 0;
+    text-decoration: underline;
+    color: black;
+  }
+
+  .views-table
+  {
+    &
+    {
+      @media (max-width: 480px)
+      {
+        display: block;
+
+        thead
+        {
+          display: none;
+        }
+        tbody, td
+        {
+          display: block;
+          padding: 0;
+          background: none;
+        }
+        tr
+        {
+          display: block;
+          padding: 0 0 2em 0;
+        }
+      }
+    }
+  }
+}

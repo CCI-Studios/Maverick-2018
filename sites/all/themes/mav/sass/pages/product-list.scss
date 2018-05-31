@@ -1,0 +1,115 @@
+.page-shop .main-wrapper > div
+{
+  max-width: 1260px;
+}
+.view-products
+{
+  margin-right: -70px;
+
+  &
+  {
+    @media (max-width: 480px)
+    {
+      margin-right: 0;
+    }
+  }
+
+  h2
+  {
+    font-size: 2.25em;
+    line-height: 1;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        font-size: 1.75em;
+      }
+    }
+  }
+  .views-row
+  {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 70px 60px 0;
+
+    &
+    {
+      @media (max-width: 840px)
+      {
+        max-width: 320px;
+      }
+      @media (max-width: 480px)
+      {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+  .views-field-title a
+  {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1;
+
+    &:hover
+    {
+      text-decoration: underline;
+    }
+  }
+  img
+  {
+    display: block;
+  }
+  .views-field-nothing
+  {
+    position: relative;
+
+    a
+    {
+      text-decoration: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+
+      .white-button
+      {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -65px;
+        width: 130px;
+      }
+      &:hover .white-button
+      {
+        display: block;
+      }
+    }
+    &:hover .thumb2
+    {
+      opacity: 1;
+    }
+  }
+  .thumb1
+  {
+    opacity: 1;
+  }
+  .thumb2
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+}

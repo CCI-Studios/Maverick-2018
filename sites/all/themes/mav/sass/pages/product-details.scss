@@ -1,0 +1,215 @@
+.node-type-product-display
+{
+  .main-wrapper
+  {
+    padding: 60px 25px;
+
+    &:after
+    {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+  .main-content
+  {
+    &
+    {
+      @media (min-width: 760px)
+      {
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+        padding-left: 30px;
+        max-width: 495px;
+      }
+    }
+
+    &.fixed-layout
+    {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      padding-right: 25px;
+    }
+    &.fixed-layout-bottom
+    {
+      position: absolute;
+      bottom: 60px;
+      left: 50%;
+      padding-right: 25px;
+    }
+
+    .form-item
+    {
+      margin-bottom: 1em;
+
+      label
+      {
+        font-weight: 600;
+        font-size: 1.15em;
+      }
+    }
+    .form-type-commerce-fancy-attributes-ajax .form-item
+    {
+      display: inline-block;
+      width: auto;
+      position: relative;
+
+      .ajax-progress
+      {
+        font-size: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    .field-name-field-color
+    {
+      border: 2px solid transparent;
+      padding: 2px;
+    }
+    .description-selected .field-name-field-color
+    {
+      border-color: black;
+    }
+    .commerce-fancy-attributes-color
+    {
+      width: 25px;
+      height: 25px;
+      border: 1px solid #7f7f7f;
+    }
+    .field-name-body
+    {
+      margin-top: 3em;
+
+      .field-label
+      {
+        font-size: 1.1em;
+        font-weight: 600;
+        margin-bottom: 0.4em;
+      }
+    }
+    .form-item-attributes-field-shirt-size
+    {
+      .form-type-radio
+      {
+        display: inline-block;
+        position: relative;
+
+        input
+        {
+          position: absolute;
+          left: -9999999px;
+        }
+        label
+        {
+          font-weight: 300;
+          cursor: pointer;
+          display: block;
+          line-height: 1;
+          padding: 2px 6px;
+        }
+        input:checked + label
+        {
+          border-bottom: 2px solid black;
+        }
+        &:first-child
+        {
+          margin-left: -6px;
+        }
+      }
+      .ajax-progress
+      {
+        font-size: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+    .form-item-quantity
+    {
+      label
+      {
+        margin-bottom: 0.4em;
+      }
+      input
+      {
+        border: 1px solid #d8d8d8;
+        display: block;
+        box-sizing: border-box;
+        height: 30px;
+        width: 32px;
+        line-height: 28px;
+        padding: 0 5px;
+        text-align: center;
+      }
+    }
+  }
+  .page-title
+  {
+    border-bottom: 0;
+    padding-bottom: 0;
+    font-size: 2.75em;
+    font-weight: 700;
+
+    &
+    {
+      @media (max-width: 480px)
+      {
+        font-size: 2em;
+      }
+    }
+  }
+  .field-field-photos
+  {
+    &
+    {
+      @media (min-width: 760px)
+      {
+        float: left;
+        width: 50%;
+      }
+    }
+  }
+  .field-name-commerce-price
+  {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1.5em;
+  }
+  .product-shares
+  {
+    margin-top: 1.5em;
+
+    ul
+    {
+      list-style: none;
+    }
+    li
+    {
+      list-style: none;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    a
+    {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      font-size: 0;
+      display: block;
+      width: 24px;
+      height: 24px;
+      text-decoration: none;
+    }
+    .fb
+    {
+      background-image: url(../images/social-fb-black.svg);
+    }
+    .tw
+    {
+      background-image: url(../images/social-tw-black.svg);
+    }
+  }
+}
