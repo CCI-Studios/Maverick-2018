@@ -15,6 +15,9 @@ body {
   line-height: 1.5;
   color: black; }
 
+a {
+  color: black; }
+
 h2 {
   font-size: 1em;
   text-transform: uppercase;
@@ -367,9 +370,6 @@ legend {
   max-width: 100%;
   height: auto !important; }
 
-.main-wrapper a {
-  color: black; }
-
 .footer {
   clear: both;
   background: black;
@@ -599,7 +599,7 @@ legend {
       margin-left: 0; } }
 
 .front .header {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   position: fixed;
   top: 0;
