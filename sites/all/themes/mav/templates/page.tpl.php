@@ -81,6 +81,12 @@
     <?php print render($page['header']); ?>
   </div></div></div>
 
+  <?php if ($page['before_content']): ?>
+  <div class="before-content"><div><div>
+    <?php print render($page['before_content']); ?>
+  </div></div></div>
+  <?php endif; ?>
+
   <div class="main-wrapper"><div><div>
 
     <div class="main-content"><div><div>
@@ -95,13 +101,13 @@
       <?php print render($page['content']); ?>
     </div></div></div>
 
-    <?php if ($page['sidebar']): ?>
-      <div class="sidebar"><div><div>
-        <?php print render($page['sidebar']); ?>
-      </div></div></div>
-    <?php endif; ?>
-
   </div></div></div>
+
+  <?php if ($page['after_content']): ?>
+  <div class="after-content"><div><div>
+    <?php print render($page['after_content']); ?>
+  </div></div></div>
+  <?php endif; ?>
 
   <div class="footer"><div><div>
     <?php print render($page['footer']); ?>

@@ -10,7 +10,8 @@ stylesheets[all][] = css/importer.css
 
 regions[header] = Header
 regions[help] = Help
+regions[before_content] = Before Content
 regions[content] = Content
-regions[sidebar] = Sidebar
+regions[after_content] = After Content
 regions[footer] = Footer
 regions[footer_bottom] = Footer Bottom
