@@ -663,8 +663,14 @@ legend {
     float: left;
     width: 50%; } }
 
+.block--home-small-feature .entity-bean {
+  border-top: 1px solid #d8d8d8; }
+
 .block--home-small-feature-1 {
   clear: left; }
+  @media (min-width: 761px) {
+    .block--home-small-feature-1 .entity-bean {
+      border-right: 1px solid #d8d8d8; } }
 
 .block--home-our-story .entity-bean {
   position: relative; }

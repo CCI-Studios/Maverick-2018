@@ -164,10 +164,25 @@
       width: 50%;
     }
   }
+  .entity-bean
+  {
+    border-top: 1px solid #d8d8d8;
+  }
 }
 .block--home-small-feature-1
 {
   clear: left;
+
+  .entity-bean
+  {
+    &
+    {
+      @media (min-width: 761px)
+      {
+        border-right: 1px solid #d8d8d8;
+      }
+    }
+  }
 }
 
 .block--home-our-story
