@@ -2,10 +2,10 @@
 {
   display: inline-block;
   color: black;
-  border: 1px solid white;
+  border: 0;
   padding: 0 16px;
   height: 50px;
-  line-height: 48px;
+  line-height: 50px;
   box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
@@ -50,10 +50,10 @@
 {
   display: inline-block;
   color: white;
-  border: 1px solid black;
+  border: 0;
   padding: 0 16px;
   height: 50px;
-  line-height: 48px;
+  line-height: 50px;
   box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
@@ -101,10 +101,10 @@
 {
   display: inline-block;
   color: white;
-  border: 1px solid black;
+  border: 0;
   padding: 0 35px;
   height: 50px;
-  line-height: 48px;
+  line-height: 50px;
   box-sizing: border-box;
   text-decoration: none;
   text-transform: uppercase;
@@ -112,7 +112,7 @@
   text-align: center;
   font-size: 1.125em;
   background: black;
-  background: linear-gradient(108deg, white 0%, white 14px, black 15px, black calc(100% - 15px), white calc(100% - 14px), white 100%);
+  background: linear-gradient(108deg, white 0%, white 15px, black 16px, black calc(100% - 16px), white calc(100% - 15px), white 100%);
   min-width: 75px;
   cursor: pointer;
   -webkit-appearance: none;
@@ -123,6 +123,6 @@
     cursor: default;
     border-color: gray;
     background: gray;
-    background: linear-gradient(108deg, white 0%, white 14px, gray 15px, gray calc(100% - 15px), white calc(100% - 14px), white 100%);
+    background: linear-gradient(108deg, white 0%, white 15px, gray 16px, gray calc(100% - 16px), white calc(100% - 15px), white 100%);
   }
 }
