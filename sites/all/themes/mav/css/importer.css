@@ -714,48 +714,49 @@ legend {
     .block--home-our-story .entity-bean.image-left .content {
       left: 50%; } }
 
-.block--home-mavericks .entity-bean {
-  clear: both;
-  box-sizing: border-box;
-  padding: 12% 25px;
-  color: white;
-  position: relative;
-  text-shadow: 0px 2px 2px black; }
-  .block--home-mavericks .entity-bean a {
+.block--home-mavericks {
+  clear: both; }
+  .block--home-mavericks .entity-bean {
+    box-sizing: border-box;
+    padding: 12% 25px;
     color: white;
-    text-decoration: underline; }
-  .block--home-mavericks .entity-bean .block-title {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin-bottom: 0.5em;
-    line-height: 1; }
-  .block--home-mavericks .entity-bean > div {
-    max-width: 1200px;
-    margin: 0 auto; }
-  .block--home-mavericks .entity-bean .content {
-    max-width: 380px; }
-  @media (max-width: 760px) {
-    .block--home-mavericks .entity-bean {
-      background: white !important;
-      text-shadow: none;
-      padding: 300px 25px 0 25px;
-      padding: 80vw 25px 25px 25px; }
-      .block--home-mavericks .entity-bean .content {
-        margin: 0 auto;
-        padding: 25px 25px;
-        background: black;
-        position: relative;
-        z-index: 1; }
-      .block--home-mavericks .entity-bean .responsive-image {
-        background-repeat: no-repeat;
-        background-position: 75% center;
-        background-size: cover;
-        padding-bottom: 440px;
-        padding-bottom: 100vw;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0; } }
+    position: relative;
+    text-shadow: 0px 2px 2px black; }
+    .block--home-mavericks .entity-bean a {
+      color: white;
+      text-decoration: underline; }
+    .block--home-mavericks .entity-bean .block-title {
+      font-size: 2.5em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      line-height: 1; }
+    .block--home-mavericks .entity-bean > div {
+      max-width: 1200px;
+      margin: 0 auto; }
+    .block--home-mavericks .entity-bean .content {
+      max-width: 380px; }
+    @media (max-width: 760px) {
+      .block--home-mavericks .entity-bean {
+        background: white !important;
+        text-shadow: none;
+        padding: 300px 25px 0 25px;
+        padding: 80vw 25px 25px 25px; }
+        .block--home-mavericks .entity-bean .content {
+          margin: 0 auto;
+          padding: 25px 25px;
+          background: black;
+          position: relative;
+          z-index: 1; }
+        .block--home-mavericks .entity-bean .responsive-image {
+          background-repeat: no-repeat;
+          background-position: 75% center;
+          background-size: cover;
+          padding-bottom: 440px;
+          padding-bottom: 100vw;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0; } }
 
 .block--home-instagram {
   clear: both;
