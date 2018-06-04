@@ -3,7 +3,7 @@
   display: inline-block;
   color: black;
   border: 0;
-  padding: 0 16px;
+  padding: 0 32px;
   height: 50px;
   line-height: 50px;
   box-sizing: border-box;
@@ -13,36 +13,14 @@
   text-align: center;
   position: relative;
   font-size: 1.125em;
+  background: white;
+  background: linear-gradient(108deg, transparent 0%, transparent 15px, white 16px, white calc(100% - 16px), transparent calc(100% - 15px), transparent 100%);
 
-  span
+  &:hover
   {
-    display: block;
-    background: white;
-    padding: 0 10px;
-    min-width: 75px;
-
-    &:before
-    {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 16px;
-      background: linear-gradient(to bottom right, transparent 0%, transparent 48%, white 52%, white 100%);
-    }
-    &:after
-    {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      width: 16px;
-      background: linear-gradient(to top left, transparent 0%, transparent 48%, white 52%, white 100%);
-    }
+    color: white;
+    background: black;
+    background: linear-gradient(108deg, transparent 0%, transparent 15px, black 16px, black calc(100% - 16px), transparent calc(100% - 15px), transparent 100%);
   }
 }
 
@@ -51,7 +29,7 @@
   display: inline-block;
   color: white;
   border: 0;
-  padding: 0 16px;
+  padding: 0 32px;
   height: 50px;
   line-height: 50px;
   box-sizing: border-box;
@@ -64,36 +42,14 @@
   background: none;
   -webkit-appearance: none;
   appearance: none;
-
-  span
+  background: black;
+  background: linear-gradient(108deg, transparent 0%, transparent 15px, black 16px, black calc(100% - 16px), transparent calc(100% - 15px), transparent 100%);
+  
+  &:hover
   {
-    display: block;
-    background: black;
-    padding: 0 10px;
-    min-width: 75px;
-
-    &:before
-    {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 16px;
-      background: linear-gradient(to bottom right, transparent 0%, transparent 48%, black 52%, black 100%);
-    }
-    &:after
-    {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      width: 16px;
-      background: linear-gradient(to top left, transparent 0%, transparent 48%, black 52%, black 100%);
-    }
+    color: black;
+    background: white;
+    background: linear-gradient(108deg, transparent 0%, transparent 15px, white 16px, white calc(100% - 16px), transparent calc(100% - 15px), transparent 100%);
   }
 }
 
@@ -102,7 +58,7 @@
   display: inline-block;
   color: white;
   border: 0;
-  padding: 0 35px;
+  padding: 0 32px;
   height: 50px;
   line-height: 50px;
   box-sizing: border-box;
