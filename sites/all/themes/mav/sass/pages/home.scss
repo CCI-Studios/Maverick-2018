@@ -22,6 +22,22 @@
   {
     background-color: rgba(0,0,0,0.4);
   }
+  &.navbar-fixed .header
+  {
+    top: 39px;
+  }
+  &.navbar-horizontal.navbar-tray-open .header
+  {
+    top: 79px;
+  }
+  &.navbar-vertical.navbar-tray-open .header
+  {
+    left: 240px;
+  }
+  .main-content .tabs
+  {
+    display: none;
+  }
   .menu-button
   {
     background-image: url(../images/icon-menu-white.svg);

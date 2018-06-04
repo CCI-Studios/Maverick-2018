@@ -618,6 +618,18 @@ legend {
 .front.scroll .header {
   background-color: rgba(0, 0, 0, 0.4); }
 
+.front.navbar-fixed .header {
+  top: 39px; }
+
+.front.navbar-horizontal.navbar-tray-open .header {
+  top: 79px; }
+
+.front.navbar-vertical.navbar-tray-open .header {
+  left: 240px; }
+
+.front .main-content .tabs {
+  display: none; }
+
 .front .menu-button {
   background-image: url(../images/icon-menu-white.svg);
   filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4)); }
