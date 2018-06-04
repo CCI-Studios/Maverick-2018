@@ -599,7 +599,7 @@ legend {
       margin-left: 0; } }
 
 .front .header {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   color: white;
   position: fixed;
   top: 0;
@@ -695,6 +695,9 @@ legend {
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); } }
+  @media (min-width: 1000px) {
+    .block--home-our-story .entity-bean.image-left .content {
+      left: 50%; } }
 
 .block--home-mavericks .entity-bean {
   clear: both;

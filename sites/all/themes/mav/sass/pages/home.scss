@@ -175,6 +175,16 @@
         }
       }
     }
+    &.image-left .content
+    {
+      &
+      {
+        @media (min-width: 1000px)
+        {
+          left: 50%;
+        }
+      }
+    }
   }
 }
 
