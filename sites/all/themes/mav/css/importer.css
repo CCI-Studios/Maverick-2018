@@ -245,14 +245,17 @@ legend {
       .block--main-menu .content > ul > li {
         display: block; } }
     .block--main-menu .content > ul > li > a {
-      height: 65px;
-      line-height: 65px;
+      line-height: 17px;
       color: black;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 600;
       display: block;
-      padding: 0 10px; }
+      padding: 24px 10px 8px 10px;
+      border-bottom: 2px solid transparent; }
+      @media (min-width: 761px) {
+        .block--main-menu .content > ul > li > a.active {
+          border-bottom: 2px solid black; } }
       @media (max-width: 640px) {
         .block--main-menu .content > ul > li > a {
           line-height: 1;
