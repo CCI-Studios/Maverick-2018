@@ -1,6 +1,10 @@
 .header
 {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   background: white;
   height: 65px;
   border-bottom: 1px solid #e5e5e5;
@@ -39,6 +43,18 @@
   {
     float: right;
   }
+}
+.navbar-fixed .header
+{
+  top: 39px;
+}
+.navbar-horizontal.navbar-tray-open .header
+{
+  top: 79px;
+}
+.navbar-vertical.navbar-tray-open .header
+{
+  left: 240px;
 }
 .block--main-menu
 {

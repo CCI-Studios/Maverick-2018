@@ -173,7 +173,11 @@ legend {
     background: linear-gradient(108deg, white 0%, white 15px, gray 16px, gray calc(100% - 16px), white calc(100% - 15px), white 100%); }
 
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   background: white;
   height: 65px;
   border-bottom: 1px solid #e5e5e5;
@@ -197,6 +201,15 @@ legend {
         margin: 0 auto; } }
   .header .region-header {
     float: right; }
+
+.navbar-fixed .header {
+  top: 39px; }
+
+.navbar-horizontal.navbar-tray-open .header {
+  top: 79px; }
+
+.navbar-vertical.navbar-tray-open .header {
+  left: 240px; }
 
 .block--main-menu {
   float: left; }
@@ -313,7 +326,8 @@ legend {
     display: block; } }
 
 .page-wrapper {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 66px; }
 
 .not-front .main-wrapper {
   position: relative;
@@ -567,14 +581,12 @@ legend {
     .bean-two-column-image-content.image-left .content > div {
       margin-left: 0; } }
 
+.front .page-wrapper {
+  padding-top: 0; }
+
 .front .header {
   background-color: transparent;
   color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
   border-bottom: 0;
   transition: background-color 0.5s; }
   .front .header .logo {
@@ -583,15 +595,6 @@ legend {
 
 .front.scroll .header {
   background-color: rgba(0, 0, 0, 0.4); }
-
-.front.navbar-fixed .header {
-  top: 39px; }
-
-.front.navbar-horizontal.navbar-tray-open .header {
-  top: 79px; }
-
-.front.navbar-vertical.navbar-tray-open .header {
-  left: 240px; }
 
 .front .main-content .tabs {
   display: none; }
@@ -859,7 +862,7 @@ legend {
 
 .node-type-product-display .main-content.fixed-layout {
   position: fixed;
-  top: 60px;
+  top: 106px;
   left: 50%;
   padding-right: 25px; }
 

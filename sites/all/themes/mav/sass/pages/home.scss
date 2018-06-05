@@ -1,14 +1,13 @@
 .front
 {
+  .page-wrapper
+  {
+    padding-top: 0;
+  }
   .header
   {
     background-color: rgba(0,0,0,0);
     color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
     border-bottom: 0;
     transition: background-color 0.5s;
 
@@ -21,18 +20,6 @@
   &.scroll .header
   {
     background-color: rgba(0,0,0,0.4);
-  }
-  &.navbar-fixed .header
-  {
-    top: 39px;
-  }
-  &.navbar-horizontal.navbar-tray-open .header
-  {
-    top: 79px;
-  }
-  &.navbar-vertical.navbar-tray-open .header
-  {
-    left: 240px;
   }
   .main-content .tabs
   {

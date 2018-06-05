@@ -35,8 +35,8 @@
       var top = $photosField.offset().top;
       var bottom = $mainWrapper.offset().top + $mainWrapper.outerHeight();
       var height = $mainContent.height();
-      if (scrollTop > top - 60) {
-        if (scrollTop < bottom - height - 120) {
+      if (scrollTop > top - 106) {
+        if (scrollTop < bottom - height - 166) {
           $mainContent.addClass("fixed-layout");
         } else {
           $mainContent.removeClass("fixed-layout").addClass("fixed-layout-bottom");
@@ -47,6 +47,6 @@
     $mainContent.removeClass("fixed-layout");
   }
   function isLargeEnoughForFixedLayout () {
-    return $(window).width() > 760 && $(window).height() >= $mainContent.height() + 60 && $mainWrapper.height() > $mainContent.height();
+    return $(window).width() > 760 && $(window).height() >= $mainContent.height() + 166 && $mainWrapper.height() > $mainContent.height();
   }
 }(jQuery));
