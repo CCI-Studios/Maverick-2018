@@ -1072,6 +1072,20 @@ legend {
       .block--content-layout .block-title {
         font-size: 2em; } }
 
+.view-stories .views-row {
+  padding-top: 60px; }
+
+.view-stories h2 {
+  line-height: 1;
+  font-size: 3em;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5em; }
+  @media (max-width: 480px) {
+    .view-stories h2 {
+      font-size: 2em; } }
+
 .search-form .form-item-keys {
   display: inline-block;
   margin-right: 30px;
