@@ -685,6 +685,9 @@ legend {
   @media (min-width: 1000px) {
     .block--home-our-story .entity-bean.image-left .content {
       left: 50%; } }
+  @media (max-width: 760px) {
+    .block--home-our-story .entity-bean .image {
+      display: none; } }
 
 .block--home-mavericks {
   clear: both; }
