@@ -161,6 +161,18 @@
       }
     }
   }
+  .field-name-field-thumbnail-1
+  {
+    text-align: center;
+
+    &
+    {
+      @media (min-width: 761px)
+      {
+        display: none;
+      }
+    }
+  }
   .field-field-photos
   {
     &
