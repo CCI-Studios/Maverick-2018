@@ -1,0 +1,15 @@
+.search-form
+{
+  .form-item-keys
+  {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 15px;
+
+    label
+    {
+      position: absolute;
+      left: -999999px;
+    }
+  }
+}

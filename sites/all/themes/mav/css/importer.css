@@ -1068,3 +1068,11 @@ legend {
     @media (max-width: 480px) {
       .block--content-layout .block-title {
         font-size: 2em; } }
+
+.search-form .form-item-keys {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px; }
+  .search-form .form-item-keys label {
+    position: absolute;
+    left: -999999px; }
