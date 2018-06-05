@@ -262,18 +262,6 @@ function commerce_shipping_recalculate_services_submit($form, &$form_state) {
             commerce_customer_profile_copy_fields($info, $form_state['values'][$pane_id], $profile, $form_state);
           }
         }
-
-        // Unset any cached addressfield data for this customer profile.
-        foreach (field_read_fields(array('type' => 'addressfield')) as $field) {
-          if (isset($form_state['input']['customer_profile_' . $type][$field['field_name']])) {
-            foreach ($form_state['input']['customer_profile_' . $type][$field['field_name']][LANGUAGE_NONE][0] as $key => &$value) {
-              if ($key == 'country') {
-                continue;
-              }
-              $value = '';
-            }
-          }
-        }
       }
 
       // Now that we have data in the form state array for the copied address,
