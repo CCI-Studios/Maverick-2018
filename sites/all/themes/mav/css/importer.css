@@ -623,7 +623,8 @@ legend {
 .block--home-header .bean-background-image {
   height: 100%;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  background: black !important; }
   .block--home-header .bean-background-image .field-name-field-body {
     position: absolute;
     left: 0;
