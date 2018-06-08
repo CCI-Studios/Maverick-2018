@@ -651,6 +651,8 @@ legend {
   border-top: 1px solid #d8d8d8; }
   .block--home-medium-feature.block--home-medium-feature-3 {
     border-right: 0; }
+  .block--home-medium-feature .block-title {
+    text-shadow: 0 0 10px white; }
   .block--home-medium-feature .entity-bean {
     min-height: 480px; }
     @media (max-width: 480px) {
