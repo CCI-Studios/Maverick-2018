@@ -5,6 +5,7 @@ core = 7.x
 scripts[] = js/menu.js
 scripts[] = js/product.js
 scripts[] = js/instagram.js
+scripts[] = js/freetee.js
 
 stylesheets[all][] = css/importer.css
 

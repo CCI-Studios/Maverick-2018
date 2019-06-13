@@ -225,3 +225,53 @@
     }
   }
 }
+
+.block--free-tshirt-shipping
+{
+  margin-top: 40px;
+  border-top: 1px solid black;
+  padding-top: 40px;
+
+  .block-title
+  {
+    text-transform: uppercase;
+    font-size: 2.25em;
+    line-height: 1;
+  }
+  .content .form-item label
+  {
+    font-size: 1em;
+  }
+  input[type=text],
+  select
+  {
+    max-width: none;
+  }
+  &
+  {
+    @media (min-width: 1020px)
+    {
+      .webform-component--city
+      {
+        float: left;
+        width: 180px;
+        margin-top: 0;
+        margin-right: 20px;
+      }
+      .webform-component--province
+      {
+        float: left;
+        width: 110px;
+        margin-top: 0;
+        margin-right: 20px;
+      }
+      .webform-component--postal-code
+      {
+        float: left;
+        width: 110px;
+        margin-top: 0;
+      }
+    }
+  }
+ 
+}
