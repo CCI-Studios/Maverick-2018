@@ -994,6 +994,10 @@ legend {
   .node-type-product-display .product-shares .tw {
     background-image: url(../images/social-tw-black.svg); }
 
+.node-product-display.hide-add-to-cart .form-item-quantity,
+.node-product-display.hide-add-to-cart .form-submit {
+  display: none; }
+
 .block--free-tshirt-shipping {
   margin-top: 40px;
   border-top: 1px solid black;

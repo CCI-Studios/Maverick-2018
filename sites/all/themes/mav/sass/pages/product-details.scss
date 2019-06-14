@@ -226,6 +226,15 @@
   }
 }
 
+.node-product-display.hide-add-to-cart
+{
+  .form-item-quantity,
+  .form-submit
+  {
+    display: none;
+  }
+}
+
 .block--free-tshirt-shipping
 {
   margin-top: 40px;
