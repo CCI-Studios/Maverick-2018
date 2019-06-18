@@ -79,25 +79,18 @@
       right: 0;
       bottom: 0;
       z-index: 2;
-
-      .white-button
-      {
-        display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -25px;
-        margin-left: -65px;
-        width: 130px;
-      }
-      &:hover .white-button
-      {
-        display: block;
-      }
     }
-    &:hover .thumb2
+    &:hover
     {
-      opacity: 1;
+      .thumb2
+      {
+        opacity: 1;
+      }
+      .black-button
+      {
+        background: white;
+        color: black;
+      }
     }
   }
   .thumb1

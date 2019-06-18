@@ -827,18 +827,11 @@ legend {
       right: 0;
       bottom: 0;
       z-index: 2; }
-      .view-products .views-field-nothing a .white-button {
-        display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -25px;
-        margin-left: -65px;
-        width: 130px; }
-      .view-products .views-field-nothing a:hover .white-button {
-        display: block; }
     .view-products .views-field-nothing:hover .thumb2 {
       opacity: 1; }
+    .view-products .views-field-nothing:hover .black-button {
+      background: white;
+      color: black; }
   .view-products .thumb1 {
     opacity: 1; }
   .view-products .thumb2 {
