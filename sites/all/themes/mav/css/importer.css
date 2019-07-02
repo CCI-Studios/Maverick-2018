@@ -761,23 +761,23 @@ legend {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto; }
-  .block--home-instagram .instagram-container .views-row {
-    float: left;
-    width: 25%; }
-    @media (max-width: 640px) {
-      .block--home-instagram .instagram-container .views-row {
-        width: 50%; } }
-    .block--home-instagram .instagram-container .views-row a {
-      display: block;
-      font-size: 0;
-      padding-bottom: 100%;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover; }
-    .block--home-instagram .instagram-container .views-row img {
-      display: block;
-      width: 100%;
-      height: auto; }
+  .block--home-instagram .instagram-container {
+    position: relative;
+    padding-bottom: 24.5%;
+    overflow: hidden; }
+    .block--home-instagram .instagram-container #pixlee_container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .block--home-instagram .instagram-container > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1; }
 
 .page-shop .main-wrapper > div {
   max-width: 1260px; }
