@@ -1,6 +1,6 @@
 (function ($) {
   $(function () {
-    if (window.location.pathname === '/product/be-maverick-fitted-tee') {
+    if (window.location.pathname === '/product/all-in') {
       $(document).ajaxComplete(replaceCostWithText);
       replaceCostWithText();
       $('.node-product-display').addClass('hide-add-to-cart');
