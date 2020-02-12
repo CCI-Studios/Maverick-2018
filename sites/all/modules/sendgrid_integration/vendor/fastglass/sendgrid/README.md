@@ -15,7 +15,7 @@ To install this library it is best to use composer. I have published a package t
 
 ``` php
 "require": {
-    "fastglass/sendgrid": ">=1.0.8"
+    "fastglass/sendgrid": ">=1.0.9"
   }
 ```
 
@@ -103,7 +103,7 @@ There is a [sendgrid-php-example app](https://github.com/sendgrid/sendgrid-php-e
 
 ## Usage
 
-To begin using this library, initialize the SendGrid object with your SendGrid credentials OR a SendGrid [API Key](https://sendgrid.com/docs/User_Guide/Account/api_keys.html). API Key is the preferred method. API Keys are in beta. To configure API keys, visit https://sendgrid.com/beta/settings/api_key.
+To begin using this library, initialize the SendGrid object with a SendGrid [API Key](https://sendgrid.com/docs/User_Guide/Account/api_keys.html). API Key is the only preferred method allowed. To configure API keys, visit https://sendgrid.com/beta/settings/api_key.
 
 ```php
 $sendgrid = new SendGrid('YOUR_SENDGRID_APIKEY');
@@ -898,10 +898,9 @@ $result = $sendgrid->send($email);
 
 The existing tests in the `test` directory can be run using [PHPUnit](https://github.com/sebastianbergmann/phpunit/) with the following command:
 
-````bash
+```bash
 composer update --dev
-cd test
-../vendor/bin/phpunit
+./vendor/bin/phpunit ./tests
 ```
 
 or if you already have PHPUnit installed globally.
