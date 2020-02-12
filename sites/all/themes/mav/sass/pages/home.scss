@@ -187,6 +187,7 @@
   .entity-bean
   {
     position: relative;
+    min-height: 420px;
 
     .content
     {
@@ -203,7 +204,8 @@
         }
       }
     }
-    &.image-left .content
+    &.image-left .content,
+    &.video-left .content
     {
       &
       {

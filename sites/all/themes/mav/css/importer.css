@@ -581,6 +581,48 @@ legend {
     .bean-two-column-image-content.image-left .content > div {
       margin-left: 0; } }
 
+.bean-two-column-video-content .block-title {
+  font-size: 3em;
+  line-height: 1;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px; }
+  @media (max-width: 480px) {
+    .bean-two-column-video-content .block-title {
+      font-size: 2em;
+      padding-bottom: 25px; } }
+
+.bean-two-column-video-content .video {
+  text-align: center;
+  font-size: 0;
+  box-sizing: border-box;
+  padding: 25px; }
+  .bean-two-column-video-content .video video {
+    display: inline-block;
+    max-width: 100%;
+    height: auto !important; }
+
+.bean-two-column-video-content .content {
+  box-sizing: border-box;
+  padding: 40px 25px; }
+  .bean-two-column-video-content .content > div {
+    max-width: 620px;
+    margin-left: auto; }
+
+@media (min-width: 760px) {
+  .bean-two-column-video-content .video {
+    width: 50%;
+    float: right; }
+  .bean-two-column-video-content .content {
+    width: 50%;
+    float: left; }
+  .bean-two-column-video-content.video-left .video {
+    float: left; }
+  .bean-two-column-video-content.video-left .content {
+    float: right; }
+    .bean-two-column-video-content.video-left .content > div {
+      margin-left: 0; } }
+
 .front .page-wrapper {
   padding-top: 0; }
 
@@ -681,7 +723,8 @@ legend {
       border-right: 1px solid #d8d8d8; } }
 
 .block--home-our-story .entity-bean {
-  position: relative; }
+  position: relative;
+  min-height: 420px; }
   @media (min-width: 1000px) {
     .block--home-our-story .entity-bean .content {
       position: absolute;
@@ -691,7 +734,8 @@ legend {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); } }
   @media (min-width: 1000px) {
-    .block--home-our-story .entity-bean.image-left .content {
+    .block--home-our-story .entity-bean.image-left .content,
+    .block--home-our-story .entity-bean.video-left .content {
       left: 50%; } }
   @media (max-width: 760px) {
     .block--home-our-story .entity-bean .image {
