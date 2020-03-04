@@ -29,6 +29,9 @@
       display: inline-block;
       max-width: 100%;
       height: auto !important;
+      box-sizing: border-box;
+      border: 2px solid black;
+      padding: 2px;
     }
   }
   .content

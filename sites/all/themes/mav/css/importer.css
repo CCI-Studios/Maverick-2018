@@ -600,7 +600,10 @@ legend {
   .bean-two-column-video-content .video video {
     display: inline-block;
     max-width: 100%;
-    height: auto !important; }
+    height: auto !important;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 2px; }
 
 .bean-two-column-video-content .content {
   box-sizing: border-box;
